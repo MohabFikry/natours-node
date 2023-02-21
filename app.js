@@ -19,7 +19,7 @@ const cookieParser = require('cookie-parser');
 const AppError = require('./utils/appError');
 
 const globalErrorHandler = require('./controllers/globalErrorHandler');
-
+//App
 const app = express();
 
 //set HTTP headers
